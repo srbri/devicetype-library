@@ -1,21 +1,25 @@
 ---
 manufacturer: Ruckus
-model: R350
-slug: ruckus-r350
-part_number: 901-R350-XX02
+model: R510
+slug: ruckus-r510
+part_number: 901-R510-XX02
 is_full_depth: false
 u_height: 0
 airflow: passive
 weight: 368
 weight_unit: g
-comments: '[Ruckus R350 Datasheet](https://www.commscope.com/product-type/enterprise-networking/wireless-access-points/indoor/r350/)'
+comments: '[Ruckus R510 Datasheet](https://webresources.ruckuswireless.com/datasheets/r510/ds-ruckus-r510.html)'
 interfaces:
   - name: Port 1
     type: 1000base-t
+    label: 1G Eth
+  - name: Port 2
+    type: 1000base-t
+    label: PoE
     poe_mode: pd
     poe_type: type2-ieee802.3at
   - name: WiFi
-    type: ieee802.11ax
+    type: ieee802.11ac
 console-ports:
   - name: USB
     type: usb-a

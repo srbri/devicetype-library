@@ -1,19 +1,16 @@
 ---
 manufacturer: Ruckus
-model: R500
-slug: ruckus-r500
-part_number: 901-R500-XX02
+model: R310
+slug: ruckus-r310
+part_number: 901-R310-XX02
 is_full_depth: false
 u_height: 0
 airflow: passive
 weight: 368
 weight_unit: g
-comments: '[Ruckus R500 Datasheet](https://webresources.ruckuswireless.com/datasheets/r500/ds-ruckus-r500.html)'
+comments: '[Ruckus R310 Datasheet](https://webresources.ruckuswireless.com/datasheets/r310/ds-ruckus-r310.html)'
 interfaces:
   - name: Port 1
-    type: 1000base-t
-    label: 1G Eth
-  - name: Port 2
     type: 1000base-t
     label: PoE
     poe_mode: pd
