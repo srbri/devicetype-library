@@ -36,3 +36,6 @@ power-outlets:
     type: nema-5-15r
   - name: '8'
     type: nema-5-15r
+module-bays:
+  - name: Accessory Slot
+    position: '1'
